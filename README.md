@@ -4,6 +4,10 @@ Para probar modelos preentrenados de [Fakeyou](https://fakeyou.com/ "Fakeyou") (
 
 Desarrollado a partir de [este cuaderno](https://colab.research.google.com/drive/1lRGlbiK2wUCm07BKIhjV3dKej7jV0s1y "este cuaderno") de Google Colab.
 
+## Requisitos
+- Tener instalado [GIT](https://git-scm.com/downloads) el cuál necesita el script para clonar los repositorios de Tacotron2 y HiFi-GAN
+- Copiar los modelos preentrenados en la carpeta "modelos" donde está el script (si no existe, el script la creará)
+
 ## Modo de uso:
 
 `python fakeyou_tts.py [opciones]`
